@@ -1,0 +1,12 @@
+body {
+  padding: 50px;
+}
+
+h1 {
+  display: block;
+  width: 300px;
+  text-align: center;
+  background: orange;
+  color: white;
+  font-weight: 600;
+}
