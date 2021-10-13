@@ -1,5 +1,6 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+// const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   // devtool: 'eval-source-map',
@@ -36,6 +37,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/index.html'),
     }),
+    // new CopyPlugin({
+    //   patterns: [
+    //     { from: 'source', to: 'dest' },
+    //     { from: 'other', to: 'public' },
+    //   ],
+    // }),
   ],
   /* devServer: {
     static: {
@@ -44,4 +51,4 @@ module.exports = {
     // contentBase:path.join(__dirname, "public"),
     port: 4001,
   }, */
-};
+}

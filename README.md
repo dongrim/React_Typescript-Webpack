@@ -45,13 +45,11 @@
 - eslint-config-prettier
 - eslint-plugin-prettier
 
-> 4. Husky
+> 4. Husky & Lint-staged
 
 - Error: version only @`4` (when version 7.0.2 then hooks does not work)
 
-> 5. Lint-staged
-
-> 6. final
+> 5. Misc.
 
 - @babel/runtime
 - @babel/plugin-transform-runtime
