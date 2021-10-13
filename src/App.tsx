@@ -4,8 +4,6 @@ require('./styles.css')
 import { useState } from 'react'
 
 export const App = () => {
-  const jojo= " koko"???????
-
   const [number, setNumber] = useState(0)
   const handlerIncrement = () => {
     setNumber(number + 1)
